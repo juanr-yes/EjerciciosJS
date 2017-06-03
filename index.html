@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+  <script src='main.js'></script>
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+  <!-- Optional theme -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-2.2.4.js" integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI=" crossorigin="anonymous"></script>
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  <link rel="stylesheet" type="text/css" href="stylesheet.css">
+</head>
+<body>
+  <br>
+                                                                                  <!----------PRIMER EJERCICIO---------->
+  <!--<form id="formulario">
+    <input type="text" class="col-xs-4" placeholder="Ingrese un color (en ingles)" id="bgcolor"/> <br><br>
+    <button type="submit">Cambia el color de fondo</button>
+  </form>-->
+
+                                                                                  <!----------SEGUNDO EJERCICIO---------->
+  <!--<form id="formulario">
+    <input type="text" class="col-xs-4" placeholder="Ingrese su altura (Ej: 1.80)" id="alturaUs"/> <br><br>
+    <input type="text" class="col-xs-4" placeholder="Ingrese su peso" id="pesoUs"/> <br><br>
+    <button type="submit">Calcule su IMC</button>
+  </form>
+  <p id="resultado"></p>-->
+
+                                                                                  <!----------TERCER EJERCICIO---------->
+  <!--<form id="formulario">
+    <input type="text" class="col-xs-4" placeholder="Ingrese el valor del producto" id="valorUs"/> <br><br>
+    <button type="submit">Calcule el IVA</button> <br><br> 
+    <input type="text" class="col-xs-4" placeholder="Valor mas IVA" id="valorIVA" disabled/> <br><br>
+  </form>-->
+
+                                                                                  <!----------CUARTO EJERCICIO---------->
+  <!--<form id="formulario">
+    <input type="text" class="col-xs-4" placeholder="Ingrese su nombre" id="nombreUs"/> <br><br>
+    <input type="text" class="col-xs-4" placeholder="Ingrese su apellido" id="apellidoUs"/> <br><br>
+    <input type="text" class="col-xs-4" placeholder="Aqui su resultado" id="resultadoUS" disabled/> <br><br>
+    <button type="submit">Concatenar</button>
+  </form>-->
+
+                                                                                  <!----------QUINTO EJERCICIO---------->
+  <!--<form id="formulario">
+    <input type="text" class="col-xs-4" placeholder="Ingrese un ancho (en pixeles)" id="anchoUS"/> <br><br>
+    <input type="text" class="col-xs-4" placeholder="Ingrese un alto (en pixeles)" id="altoUS"/> <br><br>
+    <button type="submit">Crear cuadro</button>
+  </form> <br>
+  <div id="cuadro" class="hidden"></div>-->
+
+                                                                                  <!----------SEXTO EJERCICIO---------->
+  <!--<div class="container">
+    <div class="row">
+      <div class="col-xs-6">
+        <h2>Productos en stock</h2>
+        <ul>
+          <li><b class="producto">Pan</b> - <i>640$</i> - <a class="agrProd" style="cursor: pointer;">Agregar</a></li>
+          <li><b class="producto">Palta</b> - <i>1000$</i> - <a class="agrProd" style="cursor: pointer;">Agregar</a></li>
+          <li><b class="producto">Jamon</b> - <i>1400$</i> - <a class="agrProd" style="cursor: pointer;">Agregar</a></li>
+          <li><b class="producto">Queso</b> - <i>5000$</i> - <a class="agrProd" style="cursor: pointer;">Agregar</a></li>
+          <li><b class="producto">Mantequilla</b> - <i>800$</i> - <a class="agrProd" style="cursor: pointer;">Agregar</a></li>
+        </ul>
+      </div>
+      <div class="col-xs-6">
+        <h2>Carrito de compras</h2>
+        <ul id="venta">
+        </ul>
+      </div>
+    </div>
+  </div>-->
+
+                                                                                <!----------SEPTIMO EJERCICIO---------->
+  <!--<div class="container">
+    <div class="row">
+      <div class="col-xs-12">
+        <div class="row">
+          <br>
+          <form id="formulario">
+            <input type="text" id="display" size="162"/>
+          </form>
+        </div>
+        <br>
+        <div class="row">
+          <div class="col-xs-3">
+            <button style="width: 100%;" class="btn btn-secondary numero">1</button>
+          </div>
+          <div class="col-xs-3">
+            <button style="width: 100%;"class="btn btn-secondary numero">2</button>
+          </div>
+          <div class="col-xs-3">
+            <button style="width: 100%;" class="btn btn-secondary numero">3</button>
+          </div>
+          <div class="col-xs-3">
+            <button style="width: 100%;" class="btn btn-primary simbolo">+</button>
+          </div>
+        </div>
+        <br>
+        <div class="row">
+          <div class="col-xs-3">
+            <button style="width: 100%;" class="btn btn-secondary numero">4</button>
+          </div>
+          <div class="col-xs-3">
+            <button style="width: 100%;"class="btn btn-secondary numero">5</button>
+          </div>
+          <div class="col-xs-3">
+            <button style="width: 100%;" class="btn btn-secondary numero">6</button>
+          </div>
+          <div class="col-xs-3">
+            <button style="width: 100%;" class="btn btn-primary simbolo">-</button>
+          </div>
+        </div>
+        <br>
+        <div class="row">
+          <div class="col-xs-3">
+            <button style="width: 100%;" class="btn btn-secondary numero">7</button>
+          </div>
+          <div class="col-xs-3">
+            <button style="width: 100%;"class="btn btn-secondary numero">8</button>
+          </div>
+          <div class="col-xs-3">
+            <button style="width: 100%;" class="btn btn-secondary numero">9</button>
+          </div>
+          <div class="col-xs-3">
+            <button style="width: 100%;" class="btn btn-primary simbolo">*</button>
+          </div>
+        </div>
+        <br>
+        <div class="row">
+          <div class="col-xs-9">
+            <button style="width: 100%;" class="btn btn-secondary numero">0</button>
+          </div>
+          <div class="col-xs-3">
+            <button style="width: 100%;" class="btn btn-primary simbolo">/</button>
+          </div>
+        </div>
+        <br>
+        <div class="row">
+          <div class="col-xs-6">
+            <button style="width: 100%;" class="btn btn-success resultado" type="submit" id="resultado">Resultado</button>
+          </div>
+          <div class="col-xs-6">
+            <button style="width: 100%;" class="btn btn-danger borrar">Reiniciar operacion</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>-->
+</body>
+</html>
